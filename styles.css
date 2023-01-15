@@ -1,0 +1,160 @@
+/* Universal Styles */
+html {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 4500;
+    background-color: #78b9fa;
+}
+
+a {
+    color: #78b9fa;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #733698b8;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    transition-delay: 250ms;
+    transition-duration: 1s;
+    transition-property: text-decoration;
+}
+
+a :active {
+    text-decoration: none;
+}
+
+
+/* Header */
+header .container {
+    height: 150px;
+    background-color: #C6C6C6;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+header .title {
+    font-size: 36px;
+    font-weight: 600;
+    width: auto;
+}
+
+header .subtitle {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    width: auto;
+    background-color: #c6c6c6;
+}
+
+/* Main */
+h2 {
+    font-size: 30px;
+    padding: 10px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+ 
+.grids {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.grids>* {
+    margin: 0 10px;
+    flex: 1;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+/* Colours */
+.white {
+    background-color: #FFFFFF;
+    padding: 4px;
+}
+
+.grey {
+    background-color: #C6C6C6;
+    padding: 4px;
+}
+
+.darkgrey {
+    background-color: #6c6c6c;
+    padding: 4px;
+}
+
+.blue {
+    background-color: #78b9fa;
+    padding: 4px;
+}
+
+/* Fonts */
+h3 {
+    font-size: 22px;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.SourceCodePro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Text Styles */
+.title-h1 h1 {
+    font-weight: 600;
+    font-size: 36px;
+    padding: 5px;
+}
+
+.subtitle-h2 h2 {
+    font-weight: 500;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+.p-text {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px;
+}
+/* Footer */
+footer .container {
+    height: 30px;
+    background-color: #6c6c6c;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 5px;
+    height: 15px;
+    text-align: center;
+    font-size: 14px;
+}
